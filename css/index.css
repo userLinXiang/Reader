@@ -1,0 +1,53 @@
+.container .list-item{
+    height: 150px;
+    border-bottom: 1px solid #999;
+}
+
+.container .list-item .item-lk{
+    display: block;
+    position: relative;
+    height: 100%;
+}
+
+.container .list-item .item-lk .img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 10px;
+}
+
+.container .list-item .item-lk .bk-intro{
+    margin-left: 118px;
+    height: 100%;
+    color: #424242;
+}
+
+.container .list-item .item-lk .bk-intro h2,
+.container .list-item .item-lk .bk-intro p{
+    margin-top: 15px;
+}
+
+.container .list-item .item-lk .bk-intro .intro{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #999;
+}
+
+.s-top-btn{
+    display: none;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url(../img/rocket.png) no-repeat 0 0/100% 100%;
+    opacity: .7;
+}
+
+.s-top-btn:hover{
+    opacity: 1;
+}
+

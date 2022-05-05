@@ -1,0 +1,25 @@
+.round{
+    position: fixed;
+    display: block;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: .7;
+}
+
+.round:hover{
+    opacity: 1;
+}
+
+.s-top-btn{
+    display: none;
+    bottom: 85px;
+    background: url(../img/rocket.png) no-repeat 0 0/100% 100%;
+}
+
+.play-btn{
+    bottom: 25px;
+    background: url(../img/play.png) no-repeat 15px 15px/30px 30px;
+    background-color: orange;
+}
